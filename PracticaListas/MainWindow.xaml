@@ -8,16 +8,22 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <ListBox x:Name="lstAlumnos" HorizontalAlignment="Left" Height="369" Margin="10,40,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="lstAlumnos_SelectionChanged">
-            
+
         </ListBox>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="20" Margin="10,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117" Text="Alumnos"/>
-        
+
         <TextBlock x:Name="textblock0" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top" Margin="279,19,0,0"/>
         <TextBlock x:Name="lblMatricula" HorizontalAlignment="Left" TextWrapping="Wrap" Text="000000" VerticalAlignment="Top" Margin="279,85,0,0"/>
         <TextBlock x:Name="textblock02" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Carrera:" VerticalAlignment="Top" Margin="279,117,0,0"/>
         <TextBlock x:Name="lblCarrera" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Nombre de la carrera" VerticalAlignment="Top" Margin="279,135,0,0"/>
         <TextBlock x:Name="lblNombre" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Nombre del alumno" VerticalAlignment="Top" Margin="279,36,0,0"/>
         <TextBlock x:Name="textblock01" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Matricula:" VerticalAlignment="Top" Margin="279,69,0,0"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="459,19,0,0" TextWrapping="Wrap" Text="Materias:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="611,21,0,0" TextWrapping="Wrap" Text="Clave:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lblClaveMateria" HorizontalAlignment="Left" Margin="611,42,0,0" TextWrapping="Wrap" Text="00000" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="611,79,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lblNombreMateria" HorizontalAlignment="Left" Margin="611,100,0,0" TextWrapping="Wrap" Text="Materia" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstMaterias" HorizontalAlignment="Left" Height="182" Margin="459,40,0,0" VerticalAlignment="Top" Width="100" SelectionChanged="lstMaterias_SelectionChanged" />
 
     </Grid>
 </Window>
